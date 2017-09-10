@@ -1,5 +1,7 @@
 {
   "hosting": {
+  	"author": "Kishore Kumar",
+  	"mail": "kishorekumar080297@gmail.com",
     "public": "public",
     "ignore": [
       "firebase.json",
