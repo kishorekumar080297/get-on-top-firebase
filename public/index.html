@@ -2,8 +2,9 @@
 <html>
 <head>
 <title>Get On Top !</title>
-<link rel="icon" href="img/game-controller.png" style="color:" type="image/gif" sizes="16x16">
+<link rel="icon" href="img/gamepad.png" style="color:" type="image/gif" sizes="16x16">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/pushy.css">
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 <meta name="viewport" content="width=device-width; height=device-height;">
 </head>
@@ -14,7 +15,19 @@
 <div>
 <embed class="game" name="plugin" src="sources/Get_on_Top.swf" type="application/x-shockwave-flash" width="60%" height="60%" align="center" style="">
 </div>
-<input class="ref-btn" type="button" value="New Game" onClick="window.location.reload()">
+<div class="btn-container">
+	<button class="btn btn--md btn--blue" type="button" onClick="window.location.reload()">New Game</button>
+</div>
 </body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-106923200-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <!--Developed by Kishore Kumar -->
 </html>
